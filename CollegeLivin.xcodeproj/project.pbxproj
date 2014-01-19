@@ -19,6 +19,20 @@
 		3A9B74F5188B04F800A1E625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9B74DD188B04F800A1E625 /* UIKit.framework */; };
 		3A9B74FD188B04F800A1E625 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B74FB188B04F800A1E625 /* InfoPlist.strings */; };
 		3A9B74FF188B04F800A1E625 /* CollegeLivinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B74FE188B04F800A1E625 /* CollegeLivinTests.m */; };
+		3A9B7509188B1FC100A1E625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B7508188B1FC100A1E625 /* Main.storyboard */; };
+		3A9B750C188B2CEF00A1E625 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B750B188B2CEF00A1E625 /* HomeViewController.m */; };
+		3A9B750F188B392200A1E625 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B750E188B392200A1E625 /* LoginViewController.m */; };
+		3A9B7515188B444A00A1E625 /* GalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B7514188B444A00A1E625 /* GalleryView.m */; };
+		3A9B7518188B448900A1E625 /* ItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B7517188B448900A1E625 /* ItemViewCell.m */; };
+		3A9B7520188B48F500A1E625 /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B7519188B48F500A1E625 /* images (1).jpeg */; };
+		3A9B7521188B48F500A1E625 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B751A188B48F500A1E625 /* images.jpeg */; };
+		3A9B7522188B48F500A1E625 /* download (4).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B751B188B48F500A1E625 /* download (4).jpeg */; };
+		3A9B7523188B48F500A1E625 /* download (3).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B751C188B48F500A1E625 /* download (3).jpeg */; };
+		3A9B7524188B48F500A1E625 /* download (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B751D188B48F500A1E625 /* download (2).jpeg */; };
+		3A9B7525188B48F500A1E625 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B751E188B48F500A1E625 /* download (1).jpeg */; };
+		3A9B7526188B48F500A1E625 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B751F188B48F500A1E625 /* download.jpeg */; };
+		3A9B7529188B4F1C00A1E625 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B7528188B4F1C00A1E625 /* Test.m */; };
+		3A9B752C188C512300A1E625 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B752B188C512300A1E625 /* GalleryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,26 @@
 		3A9B74FA188B04F800A1E625 /* CollegeLivinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollegeLivinTests-Info.plist"; sourceTree = "<group>"; };
 		3A9B74FC188B04F800A1E625 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A9B74FE188B04F800A1E625 /* CollegeLivinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollegeLivinTests.m; sourceTree = "<group>"; };
+		3A9B7508188B1FC100A1E625 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3A9B750A188B2CEF00A1E625 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3A9B750B188B2CEF00A1E625 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3A9B750D188B392200A1E625 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3A9B750E188B392200A1E625 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3A9B7513188B444A00A1E625 /* GalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryView.h; sourceTree = "<group>"; };
+		3A9B7514188B444A00A1E625 /* GalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryView.m; sourceTree = "<group>"; };
+		3A9B7516188B448900A1E625 /* ItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewCell.h; sourceTree = "<group>"; };
+		3A9B7517188B448900A1E625 /* ItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewCell.m; sourceTree = "<group>"; };
+		3A9B7519188B48F500A1E625 /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (1).jpeg"; sourceTree = "<group>"; };
+		3A9B751A188B48F500A1E625 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		3A9B751B188B48F500A1E625 /* download (4).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (4).jpeg"; sourceTree = "<group>"; };
+		3A9B751C188B48F500A1E625 /* download (3).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (3).jpeg"; sourceTree = "<group>"; };
+		3A9B751D188B48F500A1E625 /* download (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (2).jpeg"; sourceTree = "<group>"; };
+		3A9B751E188B48F500A1E625 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		3A9B751F188B48F500A1E625 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		3A9B7527188B4F1C00A1E625 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		3A9B7528188B4F1C00A1E625 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		3A9B752A188C512300A1E625 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		3A9B752B188C512300A1E625 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +143,19 @@
 			children = (
 				3A9B74E8188B04F800A1E625 /* AppDelegate.h */,
 				3A9B74E9188B04F800A1E625 /* AppDelegate.m */,
+				3A9B7508188B1FC100A1E625 /* Main.storyboard */,
+				3A9B752A188C512300A1E625 /* GalleryViewController.h */,
+				3A9B752B188C512300A1E625 /* GalleryViewController.m */,
+				3A9B7516188B448900A1E625 /* ItemViewCell.h */,
+				3A9B7517188B448900A1E625 /* ItemViewCell.m */,
+				3A9B7513188B444A00A1E625 /* GalleryView.h */,
+				3A9B7514188B444A00A1E625 /* GalleryView.m */,
+				3A9B750D188B392200A1E625 /* LoginViewController.h */,
+				3A9B750E188B392200A1E625 /* LoginViewController.m */,
+				3A9B750A188B2CEF00A1E625 /* HomeViewController.h */,
+				3A9B750B188B2CEF00A1E625 /* HomeViewController.m */,
+				3A9B7527188B4F1C00A1E625 /* Test.h */,
+				3A9B7528188B4F1C00A1E625 /* Test.m */,
 				3A9B74EB188B04F800A1E625 /* Images.xcassets */,
 				3A9B74E0188B04F800A1E625 /* Supporting Files */,
 			);
@@ -118,6 +165,13 @@
 		3A9B74E0188B04F800A1E625 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A9B7519188B48F500A1E625 /* images (1).jpeg */,
+				3A9B751A188B48F500A1E625 /* images.jpeg */,
+				3A9B751B188B48F500A1E625 /* download (4).jpeg */,
+				3A9B751C188B48F500A1E625 /* download (3).jpeg */,
+				3A9B751D188B48F500A1E625 /* download (2).jpeg */,
+				3A9B751E188B48F500A1E625 /* download (1).jpeg */,
+				3A9B751F188B48F500A1E625 /* download.jpeg */,
 				3A9B74E1188B04F800A1E625 /* CollegeLivin-Info.plist */,
 				3A9B74E2188B04F800A1E625 /* InfoPlist.strings */,
 				3A9B74E5188B04F800A1E625 /* main.m */,
@@ -219,8 +273,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9B7524188B48F500A1E625 /* download (2).jpeg in Resources */,
+				3A9B7509188B1FC100A1E625 /* Main.storyboard in Resources */,
+				3A9B7521188B48F500A1E625 /* images.jpeg in Resources */,
+				3A9B7522188B48F500A1E625 /* download (4).jpeg in Resources */,
 				3A9B74E4188B04F800A1E625 /* InfoPlist.strings in Resources */,
+				3A9B7525188B48F500A1E625 /* download (1).jpeg in Resources */,
 				3A9B74EC188B04F800A1E625 /* Images.xcassets in Resources */,
+				3A9B7526188B48F500A1E625 /* download.jpeg in Resources */,
+				3A9B7523188B48F500A1E625 /* download (3).jpeg in Resources */,
+				3A9B7520188B48F500A1E625 /* images (1).jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9B7515188B444A00A1E625 /* GalleryView.m in Sources */,
+				3A9B752C188C512300A1E625 /* GalleryViewController.m in Sources */,
+				3A9B750F188B392200A1E625 /* LoginViewController.m in Sources */,
 				3A9B74EA188B04F800A1E625 /* AppDelegate.m in Sources */,
+				3A9B7518188B448900A1E625 /* ItemViewCell.m in Sources */,
+				3A9B7529188B4F1C00A1E625 /* Test.m in Sources */,
+				3A9B750C188B2CEF00A1E625 /* HomeViewController.m in Sources */,
 				3A9B74E6188B04F800A1E625 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +431,7 @@
 				GCC_PREFIX_HEADER = "CollegeLivin/CollegeLivin-Prefix.pch";
 				INFOPLIST_FILE = "CollegeLivin/CollegeLivin-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,6 +445,7 @@
 				GCC_PREFIX_HEADER = "CollegeLivin/CollegeLivin-Prefix.pch";
 				INFOPLIST_FILE = "CollegeLivin/CollegeLivin-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
