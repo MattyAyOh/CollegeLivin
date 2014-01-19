@@ -39,14 +39,14 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    ItemViewCell *myCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ItemCell" forIndexPath:indexPath];
+    ItemViewCell *myCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MyCell" forIndexPath:indexPath];
     
-    UIImage *img;
+    UIImage *image;
     long row = [indexPath row];
     
-    img = [UIImage imageNamed:_partyImages[row]];
+    image = [UIImage imageNamed:_partyImages[row]];
     
-    myCell.imageView.image = img;
+    myCell.imageView.image = image;
     return myCell;
 }
 
@@ -59,13 +59,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	_partyImages = [@[@"images (1).jpeg",
-                      @"images.jpeg"
-                      @"download (4).jpeg"
-                      @"download (3).jpeg"
-                      @"download (2).jpeg"
-                      @"download (1).jpeg"
-                      @"download.jpeg"] mutableCopy];
+	_partyImages = [@[@"1.jpg",
+                      @"2.jpg",
+                      @"3.jpg",
+                      @"4.jpg",
+                      @"5.jpg",
+                      @"6.jpg",
+                      @"7.jpg"] mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning

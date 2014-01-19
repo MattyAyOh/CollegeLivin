@@ -166,6 +166,9 @@
                                     <constraint firstItem="LFf-cI-pkr" firstAttribute="leading" secondItem="34l-59-Rsd" secondAttribute="leading" constant="15" id="MaC-Dg-WDa"/>
                                     <constraint firstItem="LFf-cI-pkr" firstAttribute="centerY" secondItem="34l-59-Rsd" secondAttribute="centerY" id="Po6-ep-Q6b"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="LFf-cI-pkr" id="RoN-ap-b5J"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
