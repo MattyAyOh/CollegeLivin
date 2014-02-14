@@ -66,6 +66,11 @@
                       @"5.jpg",
                       @"6.jpg",
                       @"7.jpg"] mutableCopy];
+    
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    
+   
 }
 
 - (void)didReceiveMemoryWarning
